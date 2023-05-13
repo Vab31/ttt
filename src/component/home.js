@@ -10,7 +10,7 @@ export default function Home() {
 
     <div className="h-screen  justify-center items-center">
             
-            <p className="text-5xl text-amber-300 lg:-ml-96 ">
+            <p className="text-3xl text-amber-300 lg:-ml-96 ">
              Navigation  which have some dummy button which are not working
               only  ...<b>"working section"</b>... of Navigation is working
               <br/>
