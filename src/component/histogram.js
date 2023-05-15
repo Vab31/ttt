@@ -107,9 +107,9 @@ function WordFrequencyChart() {
             <Navigation/>
             <div className="h-screen  justify-center items-center">
             
-            <p className="text-5xl text-amber-300 lg:-ml-96 ">No Data Click on Show to fetch data</p>
+            <p className="text-5xl text-amber-300 lg:-ml-96 ">No Data Click on Submit to fetch data</p>
          
-          <button onClick={()=>setFlag(true)} className="bg-blue-500 text-slate-200 lg:-ml-96 p-5 rounded-lg m-10"> Show </button>
+          <button onClick={()=>setFlag(true)} className="bg-blue-500 text-slate-200 lg:-ml-96 p-5 rounded-lg m-10"> Submit </button>
           </div>
           </div>
     }
