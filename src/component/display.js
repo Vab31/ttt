@@ -55,7 +55,7 @@ export default function Datatable(){
    { boo ?
    <div>
      {/* <input className="w-64 left-2 mt-8 mb-8 mr-2 p-2" type="text" placeholder="Search Word" onChange={()=>setSea(sea)} value={sea} /> */}
-     <input name="search" className="w-64 left-2 mt-8 mb-8 mr-2 p-2" type="text" id="search" placeholder="Search Word"  onChange={(event) => setSea(event.target.value)} />
+     <input name="search" className="w-64 left-2 mt-8 mb-8 mr-2 p-2" type="text" id="search" placeholder="Search Word Case-Sensitive"  onChange={(event) => setSea(event.target.value)} />
          
         <button type="submit" className="text-white bg-blue-500 p-2" onClick={searchfunc}>
           Search
