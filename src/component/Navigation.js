@@ -71,26 +71,7 @@ export default function Navigation() {
   </ListItemDecorator>
   <span className="ml-2"  ><button><a href="/chart">Chart</a></button></span>
 </li>
-
-// <li className='p-5 pl-1 flex items-center text-amber-300 hover:bg-slate-500'>
-  
-//   <span className="ml-2">Authentication</span>
-// </li>
-// <li className='p-6 flex items-center hover:bg-slate-500'>
-// <ListItemDecorator>
-//     <Person2Icon/>
-//   </ListItemDecorator>
-//   <span className="ml-2"  ><button>Profile</button></span>
-// </li>
-// <li className='p-6  flex items-center hover:bg-slate-500'>
-// <ListItemDecorator>
-//     <Person2Icon/>
-//   </ListItemDecorator>
-//   <span className="ml-2"  ><button>Logout</button></span>
-// </li>
-
-
-        </ul>
+  </ul>
  
 
 
